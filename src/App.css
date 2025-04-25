@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* Font */
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.register-form {
+  box-shadow: 0px 10px 50px -1px #00000033;
+}
+
+.brand {
+  animation: slide 15s linear infinite;
+}
+
+.brand-container:hover > .brand {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.back-image-overlay {
+  background-image: url(../public/Images/home-images/SecondLast-section/image.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.back-image-overlay-2 {
+  background-image: url(../public/Images/All-Projects-Images/image.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
