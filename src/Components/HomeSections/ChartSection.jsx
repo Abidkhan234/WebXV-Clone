@@ -5,8 +5,8 @@ import image3 from "../../../public/Images/home-images/Chart-section/image3.png"
 import image4 from "../../../public/Images/home-images/Chart-section/image4.png";
 import image5 from "../../../public/Images/home-images/Chart-section/image5.jpg";
 import graph from "../../../public/Images/home-images/Chart-section/Graph.png";
-import vector from "../../../public/Images/home-images/Chart-section/vector.png";
-import vector1 from "../../../public/Images/home-images/Chart-section/vector1.png";
+import vector from "../../../public/Images/home-images/Chart-section/vector.png"
+import vector1 from "../../../public/Images/home-images/Chart-section/vector1.png"
 
 const ChartSection = () => {
   const arr = [
