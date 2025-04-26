@@ -6,7 +6,7 @@ const Footer = () => {
   const arr = [
     {
       name: "Home",
-      url: "/WebXV-Clone",
+      url: "/",
     },
     {
       name: "About us",
