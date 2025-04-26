@@ -5,8 +5,7 @@ import image3 from "../../../public/Images/home-images/Chart-section/image3.png"
 import image4 from "../../../public/Images/home-images/Chart-section/image4.png";
 import image5 from "../../../public/Images/home-images/Chart-section/image5.jpg";
 import graph from "../../../public/Images/home-images/Chart-section/Graph.png";
-import vector from "../../../public/Images/home-images/Chart-section/vector.png"
-import vector1 from "../../../public/Images/home-images/Chart-section/vector1.png"
+
 
 const ChartSection = () => {
   const arr = [
@@ -14,7 +13,7 @@ const ChartSection = () => {
       image: image1,
       price: "$42,122.00",
       percent: "-2.93%",
-      vector: vector,
+
       name: "Bitcoin",
       currency: "BTC / USD",
     },
@@ -22,7 +21,7 @@ const ChartSection = () => {
       image: image4,
       price: "$2,214.77",
       percent: "-2.22%",
-      vector: vector,
+
       name: "Ethereum",
       currency: "ETH / USD",
     },
@@ -30,7 +29,7 @@ const ChartSection = () => {
       image: image5,
       price: "$0.9999",
       percent: "0.04%",
-      vector: vector1,
+
       name: "Tether",
       currency: "USDT / USD",
     },
@@ -38,7 +37,7 @@ const ChartSection = () => {
       image: image3,
       price: "$107.41",
       percent: "-11.20%",
-      vector: vector,
+
       name: "Solana",
       currency: "SOL / USD",
     },
@@ -46,7 +45,7 @@ const ChartSection = () => {
       image: image2,
       price: "$0.6183",
       percent: "-3.09%",
-      vector: vector,
+
       name: "XRP",
       currency: "XRP / USD",
     },
@@ -105,7 +104,7 @@ const ChartSection = () => {
                 >
                   {item.percent}
                 </span>
-                <img src={item.vector} alt="trend" className="w-3 h-3" />
+                {/* <img src={item.vector} alt="trend" className="w-3 h-3" /> */}
               </div>
 
               {/* Graph */}

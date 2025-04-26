@@ -15,7 +15,7 @@ const App = () => {
     <div>
       <Routes>
         <Route element={<WebLayout />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/WebXV-Clone" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/community" element={<Community />} />
           <Route path="/register" element={<Register />} />

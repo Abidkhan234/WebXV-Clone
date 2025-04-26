@@ -11,7 +11,7 @@ const Navbar = () => {
   const navbarElements = [
     {
       name: "Web XV",
-      path: "",
+      path: "/WebXV-Clone",
     },
     {
       name: "All Projects",
